@@ -1,0 +1,44 @@
+h1 {
+    font-size: 28px;
+    font-family: Monaco, Courier, monospace;
+    color: #618ad2;
+}
+
+img {
+    float: right;
+    width: 150px;
+    margin: 0 100px 0 0;
+    border-radius: 50px;
+}
+
+.lesson3, .lesson4, .lesson5, .lesson6, .lesson7, .lesson8, .lesson9, .lesson10, 
+.lesson11, .lesson12, .lesson13 {
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding:  20px;
+}
+
+.lesson11 p {
+    transition: font-size .5s ;
+}
+
+.lesson12 h1 {
+    font-size: 28px;
+    font-family: Monaco, Courier, monospace;
+    color: #618ad2;
+    transition: color .5s;
+}
+
+.lesson13 h1 {
+    font-size: 28px;
+    font-family: Georgia, serif;
+    color: #000000;
+}
+
+.lesson13 p {
+    line-height: 1.5;
+}
+
+.lesson14 li {
+    list-style: none;
+}
