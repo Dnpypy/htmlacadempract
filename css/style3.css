@@ -1,0 +1,27 @@
+p {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.lesson1, .lesson2, .lesson3, .lesson4, .lesson5, .lesson6, .lesson7, .lesson8, .lesson9, .lesson10, 
+.lesson11, .lesson12, .lesson13, .lesson14, .lesson15,.lesson16, .lesson17 {
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding:  20px;
+}
+
+.bonus {
+	color: #FF8000;
+}
+
+.lesson17 body {
+    width: 260px;
+    margin: 0;
+    padding: 0 10px;
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+}
+
+.lesson17 h1 {
+    font-size: 18px;
+}
