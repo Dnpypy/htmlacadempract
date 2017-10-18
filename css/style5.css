@@ -1,19 +1,36 @@
 @font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  src:
-      local("Roboto-Regular"),
-      url("/assets/course73/roboto.woff") format("woff");
+    font-weight: 400;
+    font-family: "Roboto";
+    font-style: normal;
+    src:
+        local("Roboto Regular"),
+        local("Roboto-Regular"),
+        url("/assets/course73/roboto.woff") format("woff");
 }
 
 html,
 body {
     margin: 0;
     padding: 0;
+    font-size: 100%;
+    font-family: "Roboto", sans-serif;
     color: white;
     background-color: #2c3e50;
-    font-family:  font-family: "Roboto", sans-serif;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #c0392b;
+}
+
+code {
+    padding: 0.2em 0.4em;
+    font-weight: bold;
+    color: #c0392b;
+    background: white;
+    box-shadow: 0 0 2px #cccccc;
 }
 
 /* Header */
@@ -32,7 +49,6 @@ header.page-header {
     background-size: 20px 20px;
     box-shadow: 0 0 5px 0 #333333;
 }
-
 
 .logo {
     position: absolute;
@@ -69,52 +85,60 @@ main {
 
 main::after {
     content: "";
-
     display: table;
     clear: both;
 }
 
-.about-me {
-    min-height: 100px;
+.post {
     margin: 0 20px;
+}
+
+.post header {
+    margin-bottom: 1em;
+}
+
+.post header h1 {
+    margin: 0;
+}
+
+.post header time {
+    font-size: 11px;
+    color: #999999;
+}
+
+.post .intro {
+    margin: 1em 0;
     padding: 10px;
     background-color: rgba(241, 196, 15, 0.1);
     border-radius: 5px;
-    box-shadow: 0 0 3px #cccccc;
 }
 
-.about-me::after {
-    content: "";
-    display: table;
-    clear: both;
+.post .intro p {
+    margin: 0;
 }
 
-.profile {
-    float: left;
-    width: 51%;
-    min-height: 100px;
-    padding: 2%;
-    background-color: rgba(243, 156, 18, 0.1);
-    border-radius: 5px;
+.post .content {
+    min-height: 200px;
+    margin-bottom: 20px;
+    font-size: 14px;
 }
 
-.last-actions {
-    float: right;
-    width: 40%;
-    min-height: 100px;
-    background: #f1c40f;
-    border: 5px solid white;
-    border-bottom-width: 15px;
-    box-shadow: 0 0 8px -1px #f39c12;
+.post .content h2 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: 18px;
 }
 
-.posts {
-    min-height: 50px;
+.post video {
+    max-width: 100%;
+}
+
+.post audio {
+    max-width: 100%;
     margin: 20px 0;
-    padding: 20px;
-    background: #f5f5f5;
-    box-shadow: 0 0 5px #cccccc;
 }
+
+
 
 /* Footer */
 footer.page-footer {
@@ -157,9 +181,9 @@ footer.page-footer {
     font-size: 12px;
 }
 
-
 .lesson1, .lesson2, .lesson3, .lesson4, .lesson5, .lesson6, .lesson7, .lesson8, .lesson9, .lesson10, 
-.lesson11, .lesson12, .lesson13, .lesson14, .lesson15,.lesson16, .lesson17 {
+.lesson11, .lesson12, .lesson13, .lesson14, 
+.lesson15,.lesson16, .lesson17, .lesson18, .lesson19{
 	border: 1px solid #ccc;
 	border-radius: 10px;
 	padding:  20px;

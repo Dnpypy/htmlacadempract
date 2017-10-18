@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Тег form</title>
+        <link rel="stylesheet" type="text/css" href="css/form.css">
+    </head>
+
+    <body>
+
+        <!-- Знакомство с формами / Первая форма [1/18]-->
+
+        <div class="lesson1">
+            <h1>Знакомство с формами / Первая форма [1/18]
+         
+            </h1>
+
+            <form action="https://echo.htmlacademy.ru" method="post">
+     	</div>
+
+     	<!-- Знакомство с формами / Текстовое поле ввода [2/18]-->
+
+        <div class="lesson2">
+            <h1>Знакомство с формами / Текстовое поле ввода [2/18]
+         
+            </h1>
+
+            <form action="https://echo.htmlacademy.ru" method="post">
+            	<input type="text" name="login">
+     	</div>
+
+
+
+     	<!-- Знакомство с формами / Идентификатор и значение по умолчанию [3/18]-->
+
+        <div class="lesson3">
+            <h1>Знакомство с формами / Идентификатор и значение по умолчанию [3/18]
+         
+            </h1>
+
+            <form action="https://echo.htmlacademy.ru" method="post">
+            Количество <input type="text" name="total" id="total-field" value="5"> шт.
+        </form>
+     	</div>
+
+     	<!-- Знакомство с формами / Подпись для поля ввода [4/18]-->
+
+        <div class="lesson4">
+            <h1>Знакомство с формами / Подпись для поля ввода [4/18]
+         
+            </h1>
+
+            <form action="https://echo.htmlacademy.ru" method="post">
+            <label>Ваш логин <input type="text" name="login"></label>
+
+            <br><br>Другие поля
+     	</div>
+
+     	<!-- Знакомство с формами / Связываем подпись и поле по id [5/18]-->
+
+        <div class="lesson5">
+            <h1>Знакомство с формами / Связываем подпись и поле по id [5/18]
+         
+            </h1>
+
+            <form action="https://echo.htmlacademy.ru" method="post">
+            <table>
+                <tr>
+                    <td>
+                        <label for="login-field">Ваш логин</label>
+                    </td>
+                    <td>
+                        <input type="text" name="login" id="login-field">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Подпись</td>
+                    <td>Другое поле</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Кнопка отправки</td>
+                </tr>
+            </table>
+        </form>
+     	</div>
+
+     	<!-- Знакомство с формами / Добавим ещё одно поле [6/18]-->
+
+        <div class="lesson6">
+            <h1>Знакомство с формами / Добавим ещё одно поле [6/18]
+         
+            </h1>
+
+            <form action="https://echo.htmlacademy.ru" method="post">
+	            <label for="login-field">Ваш логин</label>
+	            <input type="text" name="login" id="login-field">
+	            <br><br>
+
+	            <label for="password-field">Ваш пароль</label>
+	            <input type="text" name="password" id="password-field">
+        	</form>
+     	</div>
+
+     	<!-- Знакомство с формами / Поле для ввода пароля [7/18]-->
+
+        <div class="lesson7">
+            <h1>Знакомство с формами / Поле для ввода пароля [7/18]
+         
+            </h1>
+
+            <form action="https://echo.htmlacademy.ru" method="post">
+	            <label for="login-field">Ваш логин</label>
+	            <input type="text" name="login" id="login-field">
+	            <br><br>
+	            <label for="password-field">Ваш пароль</label>
+	            <input type="password" name="password" id="password-field" value="Где же звёздочки?">
+        	</form>
+     	</div>
+
+     	<!-- Знакомство с формами / Кнопка отправки формы [8/18]-->
+
+        <div class="lesson8">
+            <h1>Знакомство с формами / Кнопка отправки формы [8/18]
+         
+            </h1>
+
+            <form action="https://echo.htmlacademy.ru" method="post">
+	            <label for="login-field">Ваш логин</label>
+	            <input type="text" name="login" id="login-field">
+	            <br><br>
+	            <label for="password-field">Ваш пароль</label>
+	            <input type="password" name="password" id="password-field">
+	            <br><br>
+	            
+	           <input type="submit" name="login" id="submit"value="Войти">
+        	</form>
+     	</div>
+
+     	<!-- Знакомство с формами / Многострочное поле ввода [9/18]-->
+
+        <div class="lesson9">
+            <h1>Знакомство с формами / Многострочное поле ввода [9/18]
+         
+            </h1>
+
+            <form action="https://echo.htmlacademy.ru" method="post">
+	            <p>Список комментариев</p>
+	            <p>Введите ваш комментарий:</p>
+
+	            <textarea name="comment" id="comment-field" rows="10">Текст комментария</textarea>
+
+	            <input type="submit" value="Отправить">
+        	</form>
+     	</div>
+
+     	<!-- Знакомство с формами / Чекбокс или «галочка» [10/18]-->
+
+        <div class="lesson10">
+            <h1>Знакомство с формами / Чекбокс или «галочка» [10/18]
+         
+            </h1>
+
+            <form action="https://echo.htmlacademy.ru" method="post">
+	            <p>Множество полей</p>
+	            <p>И как всегда в конце формы регистрации вопрос:</p>
+
+	            <input type="checkbox" checked name="subscribe" id="subscribe-field">
+	            <label for="subscribe-field">Подписать вас на рассылку?</label>
+
+	            <input type="submit" value="Отправить">
+        	</form>
+     	</div>
+
+     	<!-- Знакомство с формами / Испытание: форма регистрации [11/18]-->
+
+        <div class="lesson11">
+            <h1>Знакомство с формами / Испытание: форма регистрации [11/18]
+         
+            </h1>
+
+            <form action="https://echo.htmlacademy.ru" method="post">Ваш логин (email):<br>
+	            <input type="text" name="login"> <br>
+	            Пароль:<br>
+	           
+	            <input type="password" name="password"> <br> Информация о себе:<br>
+	            
+	            <textarea name="comment" id="comment-field" rows="3" ></textarea><br>
+
+	            <input type="checkbox" checked name="subscribe" id="subscribe-field">
+		        <label for="subscribe-field">Подписаться на рассылку</label><br>
+
+		        <input type="submit" value="Зарегистрироваться">
+            
+            
+        	</form>
+     	</div>
+
+     	<!-- Знакомство с формами / Переключатель или «радиобаттон» [12/18]-->
+
+        <div class="lesson12">
+            <h1>Знакомство с формами / Переключатель или «радиобаттон» [12/18]
+         
+            </h1>
+
+            <form action="https://echo.htmlacademy.ru" method="post">
+	            <p>В тестах часто встречаются задания типа «выберите один из предложенных вариантов».</p>
+
+	            <p><i>Какой тег обозначает «абзац»?</i></p>
+	            <label>
+	                <input type="radio" name="question-one" value="p">
+	                Тег &lt;p&gt;
+	            </label>
+
+	            <input type="submit" value="Отправить">
+        	</form>
+     	</div>
+
+     	<!-- Знакомство с формами / Группа переключателей [13/18]-->
+
+        <div class="lesson13">
+            <h1>Знакомство с формами / Группа переключателей [13/18]
+         
+            </h1>
+
+            <form action="https://echo.htmlacademy.ru" method="post">
+	            <p>В тестах часто встречаются задания типа «выберите один из предложенных вариантов».</p>
+
+	            <p><i>Какой тег обозначает «абзац»?</i></p>
+	            <label>
+	                <input type="radio" name="question-one" value="p">
+	                Тег &lt;p&gt;
+	            </label>
+	            <br>
+	            <label>
+	                <input type="radio" checked name="question-one" value="b">
+	                Тег &lt;b&gt;
+	            </label>
+
+	            <input type="submit" value="Отправить">
+        	</form>
+     	</div>
+
+     	<!-- Знакомство с формами / Раскрывающийся список или «селект» [14/18]-->
+
+        <div class="lesson14">
+            <h1>Знакомство с формами / Раскрывающийся список или «селект» [14/18]
+         
+            </h1>
+
+            <form action="https://echo.htmlacademy.ru" method="post">
+		            <p>Часто выпадающие списки используют для выбора даты.</p>
+
+		            <p><i>Ваш год рождения</i></p>
+		            <select name="year">
+		                <option value="2000">2000 год</option>
+		                <option value="2001">2001 год</option>
+		            </select>
+
+		            <input type="submit" value="Отправить">
+        	</form>
+     	</div>
+
+     	<!-- Знакомство с формами / «Мультиселект» [15/18]-->
+
+        <div class="lesson15">
+            <h1>Знакомство с формами / «Мультиселект» [15/18]
+         
+            </h1>
+
+            <form action="https://echo.htmlacademy.ru" method="post">
+	            <p>В мультиселекте можно выбрать несколько вариантов, щёлкая по ним с зажатой клавишей Ctrl на Windows или Command на OS X.</p>
+
+	            <p><i>Любимые дни недели:</i></p>
+	            <select name="days" multiple size="7" >
+	                <option>Понедельник</option>
+	                <option>Вторник</option>
+	                <option>Среда</option>
+	                <option>Четверг</option>
+	                <option>Пятница</option>
+	                <option>Суббота</option>
+	                <option selected>Воскресенье</option>
+	            </select>
+
+	            <input type="submit" value="Отправить">
+        	</form>
+     	</div>
+
+     	<!-- Знакомство с формами / Поле для загрузки файлов [16/18]-->
+
+        <div class="lesson16">
+            <h1>Знакомство с формами / Поле для загрузки файлов [16/18]
+         
+            </h1>
+
+            <form action="https://echo.htmlacademy.ru" method="post" enctype="multipart/form-data">
+	            <p>Выберите изображение для своего аватара:</p>
+	            <input type="file" name="avatar">
+
+	            <input type="submit" value="Загрузить">
+        	</form>
+     	</div>
+
+
+     	<!-- Знакомство с формами / Скрытое поле [17/18]-->
+
+        <div class="lesson17">
+            <h1>Знакомство с формами / Скрытое поле [17/18]
+         
+            </h1>
+
+            <form action="https://echo.htmlacademy.ru" method="post">
+	            <label>
+	                Сумма платежа:
+	                <input type="text" name="amount" value="500"> руб.
+	            </label>
+
+	            <!-- Добавьте поле сюда -->
+	            <input type="hidden" name="account_number" value="15">
+	            <input type="submit" value="Оплатить">
+        </form>
+     	</div>
+		
+		<!-- Знакомство с формами / Испытание: редактирование профиля [18/18]-->
+
+        <div class="lesson18">
+            <h1>Знакомство с формами / Испытание: редактирование профиля [18/18]
+         
+            </h1>
+
+            <form action="https://echo.htmlacademy.ru" method="post">
+					Ваш пол:
+            		<label>
+	                <input type="radio" name="question-one" value="p">
+	                 Мужской 
+	            	</label>
+	            	<label>
+	                <input type="radio" checked name="question-one" value="b">
+	                Женский 
+	            	</label>
+	            	<br>
+					<p>Месяц и год рождения:</p>
+		            <select name="year">
+		                <option value="Январь">Январь</option>
+		            </select>
+		            <select name="year">
+		                <option value="1990">1990</option>
+		            </select>
+		            <br>
+		            <p>Знакомые технологии:</p>
+		            <select name="days" multiple size="4" >
+		                <option>HTML</option>
+		                <option selected>CSS</option>
+		                <option>JavaScript</option>
+		                <option>Node.js</option>
+		            </select>
+		            <br>
+		            <p>Фото:</p>
+	            	<input type="file" name="avatar">
+					<input type="submit" value=" Сохранить">
+		            
+		           
+        	</form>
+     	</div>
+	</body>
+</html>

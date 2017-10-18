@@ -1,0 +1,420 @@
+.lesson1, .lesson2, .lesson3, .lesson4, .lesson5, .lesson6, .lesson7, .lesson8, .lesson9, .lesson10, 
+.lesson11, .lesson12, .lesson13, .lesson14, 
+.lesson15, .lesson16, .lesson17, .lesson18, .lesson19, .lesson20, .lesson21, .lesson22, .lesson23 {
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding:  20px;
+}
+
+.bonus {
+	color: #FF8000;
+}
+
+
+
+.lesson4 table {
+    border: 3px solid black;
+}
+
+
+.lesson4 td {
+    border: 3px solid lightgray;
+}
+
+.lesson5 table {
+     border: 6px solid black;
+    border-collapse: collapse
+}
+
+
+.lesson5 td {
+    border: 3px solid lightgray;
+}
+
+.lesson6 table {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.lesson6 td {
+     border-left: 2px solid lightgray; 
+}
+
+.lesson7 table {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+.lesson7 td {
+    border: 2px solid lightgray;
+    padding: 5px;
+    padding-right: 30px;
+}
+
+.lesson8 table {
+    border-collapse: separate;
+    border: 3px solid black;
+    border-spacing: 5px;
+}
+
+.lesson8 td {
+    border: 2px solid lightgray;
+    padding: 5px;
+}
+
+
+
+.lesson9 body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.lesson9 table {
+    border-collapse: collapse;
+    padding: 5px;
+    border-spacing: 5px;
+}
+
+.lesson9 td {
+    border-bottom: 2px solid lightgray;
+    padding: 10px;
+}
+
+.lesson10 table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.lesson10 td {
+    padding: 5px;
+    padding-right: 30px;
+    border: 1px solid lightgray;
+}
+
+.lesson10 th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.lesson11 table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.lesson11 td {
+    padding: 5px;
+    padding-right: 30px;
+    border: 1px solid lightgray;
+}
+
+.lesson11 th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.lesson11 caption {
+    caption-side: bottom;
+    text-align: left;
+}
+
+.lesson12 table {
+    border-collapse: separate;
+    border: 2px solid black;
+    border-spacing: 4px;
+}
+
+.lesson12 td {
+    padding: 5px;
+    padding-right: 30px;
+    border: 1px solid lightgray;
+}
+
+.lesson12 th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.lesson12 caption {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.lesson12 .pink {
+    background-color: pink;
+}
+
+.lesson13 table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    border-spacing: 4px;
+}
+
+.lesson13 td {
+    padding: 5px;
+    padding-right: 30px;
+    border: 1px solid lightgray;
+}
+
+.lesson13 th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.lesson13 caption {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.lesson13 .pink {
+    background-color: pink;
+}
+
+.lesson14 table {
+    border-collapse: separate;
+    border: 2px solid black;
+    border-spacing: 4px;
+}
+
+.lesson14 td {
+    padding: 5px;
+    padding-right: 30px;
+    border: 1px solid lightgray;
+}
+
+.lesson14 .pink {
+    background-color: pink;
+}
+
+.lesson15 table {
+    border-collapse: separate;
+    border: 2px solid black;
+    border-spacing: 4px;
+}
+
+.lesson15 td {
+    padding: 5px;
+    padding-right: 30px;
+    border: 1px solid lightgray;
+}
+
+.lesson15 .pink {
+    background-color: pink;
+}
+
+.lesson15 .green {
+    background-color: lightgreen;
+}
+
+.lesson15 .blue {
+    background-color: lightblue;
+}
+
+.lesson16 table {
+    border-collapse: separate;
+    border: 2px solid black;
+    border-spacing: 4px;
+}
+
+.lesson16 td {
+    padding: 5px;
+    padding-right: 30px;
+    border: 1px solid lightgray;
+}
+
+.lesson16 .pink {
+    background-color: pink;
+}
+
+.lesson17 body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.lesson17 table {
+    
+    border-collapse: collapse;
+    padding: 6px;
+    border-spacing: 5px;
+}
+
+.lesson17 td {
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.lesson17 th {
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+.lesson17 caption {
+    caption-side: bottom;
+    text-align: center;
+}
+
+.lesson18 .cell-1 {
+    vertical-align: bottom;
+}
+
+.lesson18 .column-2 {
+    text-align: right;.
+}
+
+.lesson18 .column-3 {
+    text-align: center;
+}
+
+.lesson18 table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.lesson18 td {
+    padding: 5px;
+    padding-right: 10px;
+    border: 1px solid lightgray;
+}
+
+.lesson18 th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.lesson18 caption {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.lesson19 table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.lesson19 td {
+    color: brown;
+    background-color: lightyellow;
+    padding: 5px;
+    padding-right: 10px;
+    border: 1px solid lightgray;
+}
+
+.lesson19 th {
+    background-color: lightcyan;
+    color: darkblue;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.lesson19 caption {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.lesson20 .row-1 {
+    background-color: pink;
+}
+
+.lesson20 .row-2 {
+    background-color: lightgreen;
+}
+
+.lesson20 .row-3 {
+    background-color: lightblue;
+}
+
+.lesson20 table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.lesson20 td {
+    padding: 5px;
+    padding-right: 10px;
+    border: 1px solid lightgray;
+}
+
+.lesson20 th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.lesson20 caption {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.lesson21 table {
+    width: 100%;
+    height: 250px;
+    border-collapse: collapse;
+}
+
+.lesson21 td {
+    padding: 5px;
+    padding-right: 10px;
+    border: 1px solid black;
+}
+
+.lesson21 th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.lesson21 caption {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+.lesson23 body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.lesson23 table {
+    
+    border-collapse: collapse;
+    padding: 10px;
+    
+}
+
+.lesson23 td {
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+
+.lesson23 th {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: darkcyan;
+    width: 33%;
+}
+
+.lesson23 .topmenu {
+    background-color: lightblue;
+}
+
+.lesson23 .text {
+    text-align: left;
+}
+
+.lesson23 .row1 {
+    text-align: center;
+}
+
+.lesson23 .row2 {
+    text-align: right;
+}
+
+

@@ -1,0 +1,105 @@
+.lesson1, .lesson2, .lesson3, .lesson4, .lesson5, .lesson6, .lesson7, .lesson8, .lesson9, .lesson10, 
+.lesson11, .lesson12, .lesson13, .lesson14, 
+.lesson15, .lesson16, .lesson17, .lesson18, .lesson19, .lesson20, .lesson21, .lesson22, .lesson23 {
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding:  20px;
+}
+
+.bonus {
+	color: #FF8000;
+}
+
+ h1 {
+    font-size: 18px;
+
+}
+
+.lesson5 table {
+    border-collapse: collapse;
+}
+
+.lesson5 td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.lesson5 tr:nth-child(n+2) {
+    color: #ccc;
+}
+
+.lesson9 input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+}
+
+.lesson10 input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+}
+
+.lesson11 html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.lesson11 body {
+    width: 350px;
+    padding: 10px 20px;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.lesson11 h1 {
+    margin: 0;
+}
+
+.lesson12 input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+}
+
+.lesson13 input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+}
+
+.lesson14 input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+}
+
+.lesson15 input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+}
+
+.lesson16 input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+}
+
+.lesson17 input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+}
+
+.lesson18 html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.lesson18 body {
+    width: 350px;
+    padding: 10px 20px;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.lesson18 h1 {
+    margin: 0;
+}
