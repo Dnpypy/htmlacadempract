@@ -329,35 +329,42 @@
             </h1>
 
             <form action="https://echo.htmlacademy.ru" method="post">
-					Ваш пол:
+
+            		Ваш пол:
             		<label>
 	                <input type="radio" name="question-one" value="p">
 	                 Мужской 
 	            	</label>
+	            	
 	            	<label>
 	                <input type="radio" checked name="question-one" value="b">
 	                Женский 
 	            	</label>
 	            	<br>
-					<p>Месяц и год рождения:</p>
+					Месяц и год рождения:<br>
 		            <select name="year">
 		                <option value="Январь">Январь</option>
+		                
 		            </select>
 		            <select name="year">
 		                <option value="1990">1990</option>
 		            </select>
 		            <br>
-		            <p>Знакомые технологии:</p>
+		            <label>
+		            Знакомые технологии:<br>
 		            <select name="days" multiple size="4" >
 		                <option>HTML</option>
 		                <option selected>CSS</option>
 		                <option>JavaScript</option>
 		                <option>Node.js</option>
 		            </select>
+		            </label>
 		            <br>
-		            <p>Фото:</p>
-	            	<input type="file" name="avatar">
-					<input type="submit" value=" Сохранить">
+		            <label>Фото:
+                    <input type="file" name="choose file">
+                    </label>
+                    <br>
+                    <input type="submit" value="Сохранить">
 		            
 		           
         	</form>

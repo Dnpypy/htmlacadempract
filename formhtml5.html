@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Испытание: формы — вспомнить всё</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/formhtml5.css">
+    </head>
+    <body>
+        
+        <!-- Формы и HTML5 / Испытание: формы — вспомнить всё [1/28]-->
+        <div class="lesson1">
+
+            <form action="/echo" method="post">
+                <label for="login">Имя</label>
+                <input type="text" id="login">
+                <div class="half-width">
+                  <label for="date-year">Дата рождения</label>
+                  <input type="text" id="date-year" class="date">
+                </div>
+                <div class="half-width">
+                  <label>Цвет</label>
+                  <select>
+                            <option selected value="Рыжий">Рыжий</option>
+                  </select>
+                </div>
+                <label>
+                  <!--После закрытия тега input ставим пробел перед Разрешать гладить и 100% :)-->
+                            <input type="checkbox"> Разрешать гладить</label>
+                <label for="secret">Секретное блюдо</label>
+                <input type="password" id="secret">
+                <div class="buttons">
+                  <input type="submit" value="Сохранить">
+                </div>
+            </form>
+
+        </div>
+
+        <!-- Формы и HTML5 / Сброс введенных значений [2/28]-->
+        <div class="lesson2">
+            <header class="page-header">Форма логина</header>
+            <main>
+                <form action="/echo" method="post">
+                    <label for="name">Имя</label> 
+                    <input type="text" id="name" name="name" value="">
+                    <label for="password">Пароль</label> 
+                    <input type="password" id="password" name="password">
+                    <label><input type="checkbox" name="allow">Разрешать гладить</label>
+                    <div class="buttons">
+                        <input type="submit" value="Войти">
+                        <input type="reset" value="Сбросить">
+                    </div>
+                </form> 
+            </main>
+            <footer class="page-footer"></footer>
+
+        </div>
+
+        <!-- Формы и HTML5 / Простая кнопка [3/28]-->
+        <div class="lesson3">
+            <header class="page-header">Форма логина</header>
+            <main>
+                <form action="/echo" method="post">
+                    <label for="name">Имя</label> 
+                    <input type="text" id="name" name="name" value="Кексик">
+                    <label for="password">Пароль</label> 
+                    <input type="password" id="password" name="password">
+                    <label><input type="checkbox" name="allow">Разрешать гладить</label>
+                    <div class="buttons">
+                        <input type="submit" value="Войти">
+                         <input type="button" value="Кнопка">
+                        
+                    </div>
+                </form> 
+            </main>
+            <footer class="page-footer"></footer>
+
+        </div>
+
+        <!-- Формы и HTML5 / Кнопка-изображение [4/28]-->
+        <div class="lesson4">
+            <header class="page-header">Форма логина</header>
+            <main>
+                <form action="/echo" method="post">
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" name="name" value="Кексик">
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password" name="password">
+                    <label>
+                        <input type="checkbox" name="allow">
+                        Разрешать гладить
+                    </label>
+                    <!-- Кнопка-изображение -->
+                    <input type="image" src="/assets/course74/enter.png" alt="Войти">
+                </form> 
+            </main>
+            <footer class="page-footer"></footer>
+
+        </div>
+
+        <!-- Формы и HTML5 / Альтернативный способ задания кнопок [5/28]-->
+        <div class="lesson5">
+            <header class="page-header">Форма логина</header>
+            <main>
+                <form action="/echo" method="post">
+                    <label for="name">Имя</label> 
+                    <input type="text" id="name" name="name" value="Кексик">
+                    <label for="password">Пароль</label> 
+                    <input type="password" id="password" name="password">
+                    <label><input type="checkbox" name="allow">Разрешать гладить</label>
+                    <div class="buttons">
+                        <button type="submit">Войти <img src="/assets/course74/enter-light.png" alt=""></button>
+                    </div>
+                </form>
+            </main>
+            <footer class="page-footer"></footer>
+        </div>
+
+        <!-- Формы и HTML5 / Обязательные поля [6/28]-->
+        <div class="lesson6">
+            <header class="page-header">Форма доставки</header>
+            <main>
+                <form action="/echo" method="post">
+                    <label for="name"  >Имя</label> 
+                    <input type="text" id="name" name="name" value="Кексик" required>
+                    <label for="address">Адрес доставки</label>
+                    <textarea id="address" name="address" rows="2" required></textarea>
+                    <div class="buttons">
+                        <input type="submit" value="Заказать">
+                    </div>
+                </form> 
+            </main>
+            <footer class="page-footer"></footer>
+        </div>
+
+         <!-- Формы и HTML5 / Поле выбора даты [7/28]-->
+        <div class="lesson7">
+            <header class="page-header">Форма доставки</header>
+            <main>
+                <form action="/echo" method="post">
+                    <label for="name">Имя</label> 
+                    <input type="text" id="name" name="name" value="Кекс" required>
+                    <label for="address">Адрес доставки</label>
+                    <textarea id="address" name="address" rows="2" required>ул. Хвостенко, д. 1</textarea>
+                    <div class="half-width">
+                        <label for="date">Дата доставки</label> 
+                        <input type="date" name="date">
+                    </div>
+                    <div class="buttons">
+                    <input type="submit" value="Заказать">
+                    </div>
+                </form> 
+            </main>
+            <footer class="page-footer"></footer>
+        </div>
+
+        <!-- Формы и HTML5 / Поле выбора времени [8/28]-->
+        <div class="lesson8">
+            <header class="page-header">Форма доставки</header>
+            <main>
+                <form action="/echo" method="post">
+                    <label for="name">Имя</label> 
+                    <input type="text" id="name" name="name" value="Кекс" required>
+                    <label for="address">Адрес доставки</label>
+                    <textarea id="address" name="address" rows="2" required>ул. Хвостенко, д. 1</textarea>
+                    <div class="half-width">
+                        <label for="date">Дата доставки</label> 
+                        <input type="date" id="date" name="date" value="2014-12-12">
+                    </div>
+                    <div class="half-width">
+                        <label for="time">Время доставки</label> 
+                       <input type="time" name="time">
+                    </div>
+                    <div class="buttons">
+                        <input type="submit" value="Заказать">
+                    </div>
+                </form> 
+            </main>
+            <footer class="page-footer"></footer>
+        </div>
+
+        <!-- Формы и HTML5 / Список возможных значений [9/28]-->
+        
+        <div class="lesson9">
+            <header class="page-header">Форма доставки</header>
+            <main>
+                <form action="/echo" method="post">
+                    <label for="name">Имя</label> 
+                    <input type="text" id="name" name="name" value="Кекс" required>
+                    <label for="address">Адрес доставки</label>
+                    <textarea id="address" name="address" rows="2" required>ул. Хвостенко, д. 1</textarea>
+                    <div class="half-width">
+                        <label for="date">Дата доставки</label> 
+                        <input type="date" id="date" name="date" value="2014-12-12">
+                    </div>
+                    <div class="half-width">
+                        <label for="time">Время доставки</label> 
+                        <input type="time" id="time" name="time" value="12:00">
+                    </div>
+                    <div class="half-width">
+                        <label for="dish">Блюдо</label>
+                        <input type="text" id="dish" name="dish" list="browsers">
+                        <datalist id="browsers">
+                          <option value="Firefox">
+                          <option value="Chrome">
+                          <option value="Safari">
+                        </datalist>
+                    </div>
+                    <div class="buttons">
+                        <input type="submit" value="Заказать">
+                    </div>
+                </form> 
+            </main>
+            <footer class="page-footer"></footer>
+            </div>
+
+
+
+    </body>
+</html>
