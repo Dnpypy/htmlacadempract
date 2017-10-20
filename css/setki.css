@@ -1,0 +1,67 @@
+.lesson1, .lesson2, .lesson3, .lesson4, .lesson5, .lesson6, .lesson7, .lesson8, .lesson9, .lesson10, 
+.lesson11, .lesson12, .lesson13, .lesson14, 
+.lesson15, .lesson16, .lesson17, .lesson18, .lesson19, .lesson20, .lesson21, .lesson22, .lesson23 {
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding:  20px;
+}
+
+.bonus {
+	color: #FF8000;
+}
+
+
+body {
+    font-family: "PT Sans", sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: 10px auto;
+}
+
+.block {
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #cc0000;
+    background: none;
+    border: 2px dashed #cccccc;
+}
+
+.column1 {
+	border: 1px solid #ccc;
+    float: left;
+    width: 120px;
+    min-height: 50px;
+
+}
+
+
+.lesson2 body {
+    font-family: "PT Sans", sans-serif;
+}
+
+.lesson2 .container {
+    width: 300px;
+    margin: 10px auto;
+}
+
+.lesson2 .block {
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #cc0000;
+    background: rgba(255, 234, 171, 0.5);
+    border: 2px dashed #cccccc;
+}
+
+.lesson2 .column1 {
+    float: left;
+    width: 120px;
+    min-height: 50px;
+}
+
+.lesson2 .column2 {
+     float: right;
+     width: 120px;
+    min-height: 50px;
+}
