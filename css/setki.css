@@ -126,3 +126,109 @@
     min-height: 50px;
     margin-right: 9px;
 }
+
+.lesson5 body {
+    font-family: "PT Sans", sans-serif;
+}
+
+.lesson5 .container {
+    width: 300px;
+    margin: 10px auto;
+}
+
+.lesson5 .block {
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #cc0000;
+    background: rgba(255, 234, 171, 0.5);
+    border: 2px dashed #cccccc;
+}
+
+.lesson5 .column1 {
+    float: left;
+    width: 65px;
+    min-height: 50px;
+    margin-right: 9px;
+}
+
+.lesson5 .column2 {
+    float: left;
+    width: 80px;
+    min-height: 50px;
+}
+
+.lesson6 body {
+    font-family: "PT Sans", sans-serif;
+}
+
+.lesson6 .container {
+    width: 300px;
+    margin: 10px auto;
+}
+
+.lesson6 .block {
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #cc0000;
+    background: rgba(255, 234, 171, 0.5);
+    border: 2px dashed #cccccc;
+}
+
+.lesson6 .column1 {
+    float: left;
+    width: 65px;
+    min-height: 50px;
+    margin-right: 9px;
+}
+
+.lesson6 .column2 {
+    float: left;
+    width: 80px;
+    min-height: 50px;
+}
+
+.lesson6 .column3 {
+    float: right;
+    width: 65px;
+    min-height: 50px;
+}
+
+.lesson7 body {
+    font-family: "PT Sans", sans-serif;
+}
+
+.lesson7 .container {
+    width: 300px;
+    margin: 10px auto;
+}
+
+.lesson7 .block {
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #cc0000;
+    background: rgba(255, 234, 171, 0.5);
+    border: 2px dashed #cccccc;
+}
+
+.lesson7 .column1 {
+    float: left;
+    width: 65px;
+    min-height: 50px;
+    margin-right: 9px;
+}
+
+.lesson7 .column2 {
+    float: left;
+    width: 80px;
+    min-height: 50px;
+}
+
+.lesson7 .column3 {
+    float: right;
+    width: 65px;
+    min-height: 50px;
+}
+
+.lesson7 .footer {
+    clear: both;
+}
