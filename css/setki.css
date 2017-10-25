@@ -1,6 +1,8 @@
 .lesson1, .lesson2, .lesson3, .lesson4, .lesson5, .lesson6, .lesson7, .lesson8, .lesson9, .lesson10, 
 .lesson11, .lesson12, .lesson13, .lesson14, 
-.lesson15, .lesson16, .lesson17, .lesson18, .lesson19, .lesson20, .lesson21, .lesson22, .lesson23 {
+.lesson15, .lesson16, .lesson17, .lesson18,
+.lesson19, .lesson20, .lesson21, .lesson22, 
+.lesson23 {
 	border: 1px solid #ccc;
 	border-radius: 10px;
 	padding:  20px;
@@ -231,4 +233,312 @@
 
 .lesson7 .footer {
     clear: both;
+}
+
+
+.lesson8 body {
+    font-family: "PT Sans", sans-serif;
+}
+
+.lesson8 .container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 0 2px #cccccc;
+}
+
+.lesson8 .block {
+    width: 80px;
+    padding: 10px;
+    color: white;
+    background: #3498db;
+    border: 2px solid #34495e;
+}
+
+.lesson8 p {
+    background: #ecf0f1;
+    border: 2px dotted #bdc3c7;
+}
+
+.lesson8 .block1 {
+    float: left;
+    margin-right: 10px;
+}
+
+.lesson8 img {
+    float: left;
+    margin-right: 10px;
+}
+
+.lesson8 .block2 {
+    float: right;
+     margin-left: 10px;
+}
+
+.lesson9 body {
+    font-family: "PT Sans", sans-serif;
+}
+
+.lesson9 .container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 0 2px #cccccc;
+}
+
+.lesson9 .block {
+    width: 100px;
+    padding: 10px;
+    color: white;
+    background: #3498db;
+    border: 2px solid #34495e;
+}
+
+.lesson9 p {
+    background: #ecf0f1;
+    border: 2px dotted #bdc3c7;
+}
+
+.lesson9 .block1 {
+    float: left;
+}
+
+.lesson9 .block2 {
+    float: right;
+}
+
+.lesson10 body {
+    font-family: "PT Sans", sans-serif;
+}
+
+.lesson10 h1 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.lesson10 p {
+    background: #ecf0f1;
+    border: 2px dotted #bdc3c7;
+}
+
+.lesson10 .container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 0 2px #cccccc;
+}
+
+.lesson10 .columns-container {
+    padding: 10px;
+    background: #27ae60;
+    border: 2px solid #34495e;
+}
+
+.lesson10 .block {
+    width: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: white;
+    background: #3498db;
+    border: 2px solid #34495e;
+}
+
+.lesson10 .block1 {
+    float: left;
+    margin-right: 10px;
+    height: 100px;
+}
+
+.lesson10 .block2 {
+    float: left;
+}
+
+.lesson10 .block3 {
+    float: right;
+}
+
+.lesson11 body {
+    font-family: "PT Sans", sans-serif;
+}
+
+.lesson11 h1 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.lesson11 .container {
+    width: 400px;
+    min-height: 100px; /* прячем эффект выпадания флоатов */
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 0 2px #cccccc;
+}
+
+.lesson11 .block {
+    margin-bottom: 10px;
+    padding: 10px;
+    color: white;
+    background: #3498db;
+    border: 2px solid #34495e;
+}
+
+.lesson11 .block1{
+  float:left;
+  margin-right: 10px;
+}
+
+.lesson11 .block2{
+  float:left;
+  margin-right: 10px;
+}
+
+.lesson11 .block3{
+  float:left;
+}
+
+.lesson11 .block4{
+  float:right;
+  margin-left: 10px;
+}
+
+.lesson11 .block5{
+  float:right;
+  margin-left: 10px;
+}
+
+.lesson11 .block6{
+  float:right;
+}
+
+.lesson12 body {
+    font-family: "PT Sans", sans-serif;
+}
+
+.lesson12 h1 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.lesson12 .container {
+    width: 400px;
+    min-height: 150px; /* прячем эффект выпадания флоатов */
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 0 2px #cccccc;
+}
+
+.lesson12 .block {
+    margin-bottom: 10px;
+    padding: 10px;
+    color: white;
+    background: #3498db;
+    border: 2px solid #34495e;
+}
+
+.lesson12 .block1,
+.lesson12 .block2,
+.lesson12 .block3 {
+    float: left;
+    width: 95px;
+    margin-right: 10px;
+}
+
+.lesson12 .block4,
+.lesson12 .block5,
+.lesson12 .block6 {
+    float: right;
+    width: 95px;
+    margin-left: 10px;
+}
+
+.lesson12 .block1 {
+    width: 200px;
+    height: 50px;
+}
+
+.lesson12 .block4 {
+    margin-left: 30px;
+    height: 50px;
+}
+
+.lesson12 .block6 {
+    width: 300px;
+    
+}
+
+.lesson13 html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.lesson13 body {
+    width: 400px;
+    height: 300px;
+}
+
+.lesson13 .puzzle {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.lesson13 .puzzle div {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.lesson13 .block1 {
+    float: left;
+    width: 70px;
+    height: 220px;
+    background: #3498db;
+}
+
+.lesson13 .block2 {
+    float: right;
+    width: 220px;
+    height: 70px;
+    background: #3498db;
+}
+
+.lesson13 .block3 {
+    width: 70px;
+    height: 70px;
+    background: #8e44ad;
+}
+
+.lesson13 .block4 {
+    float: left;
+    width: 70px;
+    height: 145px;
+    background: #e74c3c;
+}
+
+.lesson13 .block5 {
+    float: right;
+    width: 70px;
+    height: 145px;
+    background: #e74c3c;
+}
+
+.lesson13 .block6 {
+    float: right;
+    width: 70px;
+    height: 70px;
+    background: #f1c40f;
+}
+
+.lesson13 .block7 {
+    float: right;
+    width: 145px;
+    height: 70px;
+    background: #2ecc71;
+}
+
+.lesson13 .block8 {
+    float: left;
+    width: 145px;
+    height: 70px;
+    background: #2ecc71;
 }
