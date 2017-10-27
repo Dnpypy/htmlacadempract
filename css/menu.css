@@ -1,0 +1,92 @@
+.lesson1, .lesson2, .lesson3, .lesson4, .lesson5, .lesson6, .lesson7, .lesson8, .lesson9, .lesson10, 
+.lesson11, .lesson12, .lesson13, .lesson14, 
+.lesson15, .lesson16, .lesson17, .lesson18,
+.lesson19, .lesson20, .lesson21, .lesson22, 
+.lesson23 {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding:  20px;
+}
+
+.bonus {
+    color: #FF8000;
+}
+
+
+.lesson16 body {
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.lesson16 .main-menu {
+    margin: 0;
+    padding: 10px 15px;
+    list-style: none;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+}
+
+.lesson16 .main-menu li {
+    display: inline;
+    margin-right: 5px;
+    border: 1px solid #000;
+}
+
+.lesson16 .main-menu a {
+    color: #0088cc;
+}
+
+.lesson17 body {
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.lesson17 .main-menu {
+    width: 530px;
+    margin: 0;
+    padding: 10px 15px;
+    list-style: none;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+}
+
+.lesson17 .main-menu li {
+    display: inline;
+    margin-right: 5px;
+    white-space: nowrap;
+}
+
+.lesson17 .main-menu a {
+    color: #0088cc;
+}
+
+.lesson18 body {
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.lesson18 .main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    border: 1px solid #e5e5e5;
+}
+
+.lesson18 .main-menu li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.lesson18 .main-menu a {
+    display: block;
+    padding: 8px 10px;
+    border: 1px solid #000;
+    color: #0088cc;
+}
