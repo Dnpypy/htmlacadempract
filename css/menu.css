@@ -89,6 +89,7 @@
     padding: 8px 10px;
     border: 1px solid #000;
     color: #0088cc;
+<<<<<<< HEAD
 }
 
 .lesson19 body {
@@ -251,4 +252,6 @@ body {
     left: 170px;
     z-index: 10;
     width: 150px;
+=======
+>>>>>>> 6f4f39994b1e3b0362e4466e13bb30336f629428
 }
